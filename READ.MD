@@ -85,8 +85,3 @@ python app.py
 
 Open `frontend/index.html` in your browser, or run it using VS Code Live Server for the best experience.
 
-## Screenshots
-
-
-
-Made with ❤️ as a project focused on using technology to make everyday travel a little safer.
