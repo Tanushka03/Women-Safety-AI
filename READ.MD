@@ -87,8 +87,6 @@ Open `frontend/index.html` in your browser, or run it using VS Code Live Server 
 
 ## Screenshots
 
-_Add screenshots of the homepage, safety map, and SOS feature here._
 
----
 
 Made with ❤️ as a project focused on using technology to make everyday travel a little safer.
