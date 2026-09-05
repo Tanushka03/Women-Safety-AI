@@ -1,0 +1,32 @@
+crime_data = [
+    {
+        "lat":17.390,
+        "lng":78.485,
+        "risk":"high",
+        "incidents":23
+    },
+    {
+        "lat":17.382,
+        "lng":78.490,
+        "risk":"medium",
+        "incidents":12
+    },
+    {
+        "lat":17.376,
+        "lng":78.478,
+        "risk":"low",
+        "incidents":3
+    },
+    {
+        "lat":17.388,
+        "lng":78.492,
+        "risk":"high",
+        "incidents":18
+    },
+    {
+        "lat":17.380,
+        "lng":78.480,
+        "risk":"low",
+        "incidents":2
+    }
+]

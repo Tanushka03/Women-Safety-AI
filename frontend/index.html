@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SafeCity AI</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar">
+<div class="logo">SafeCity AI</div>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="map.html">Safety Map</a>
+<a href="safety.html">AI Analysis</a>
+</div>
+</nav>
+
+<div class="container">
+
+<header class="hero-header">
+<h1>SafeCity AI</h1>
+<p>AI-powered Women Safety Platform</p>
+
+<div class="hero-stats">
+<div><h2>24/7</h2><span>Support</span></div>
+<div><h2>AI</h2><span>Analysis</span></div>
+<div><h2>Live</h2><span>Tracking</span></div>
+</div>
+</header>
+
+<section class="hero">
+
+    <button id="sosBtn" class="sos-btn">
+        SOS Emergency
+    </button>
+
+    <button id="locationBtn" class="location-btn">
+        Share Live Location
+    </button>
+
+    <div id="locationBox">
+        Location not shared yet.
+    </div>
+
+</section>
+<section class="cards">
+
+<a href="map.html" class="card-link">
+<div class="card">
+<h3>Safety Map</h3>
+<p>View nearby risk zones.</p>
+</div>
+</a>
+
+<a href="safety.html" class="card-link">
+<div class="card">
+<h3>AI Safety Analysis</h3>
+<p>Get an AI safety score.</p>
+</div>
+</a>
+
+<div class="card">
+<h3>Incident Reporting</h3>
+<p>Report unsafe places.</p>
+</div>
+
+</section>
+
+<section class="report">
+
+<h2>Report an Incident</h2>
+
+<textarea id="reportText" placeholder="Describe the incident..."></textarea>
+
+<button id="reportBtn" class="report-btn">Submit Report</button>
+
+<p id="status"></p>
+
+</section>
+
+<footer class="footer">
+SafeCity AI • Civic-Tech Initiative
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
